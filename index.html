@@ -9,11 +9,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="school.css" />
   </head>
   <body>
     <header class="nav wrap">
       <a class="brand" href="#inicio" aria-label="Ir al inicio">MP<span>·</span></a>
       <nav aria-label="Navegación principal">
+        <a href="#miescolar">MiEscolar</a>
         <a href="#gymapp">GymApp</a>
         <a href="#proyectos">Proyectos</a>
         <a href="https://github.com/manuelpobletevillagra" target="_blank" rel="noreferrer">GitHub ↗</a>
@@ -25,14 +27,40 @@
         <p class="eyebrow">PORTAFOLIO · CHILE</p>
         <h1>Software claro para<br /><em>problemas reales.</em></h1>
         <p class="intro">Soy Manuel Poblete. Diseño y desarrollo productos digitales, desde plataformas operativas hasta experiencias móviles centradas en las personas.</p>
-        <div class="hero-actions"><a class="button primary" href="#gymapp">Conoce GymApp <span>↓</span></a><a class="button quiet" href="#proyectos">Ver repositorios</a></div>
+        <div class="hero-actions"><a class="button primary" href="#miescolar">Conoce MiEscolar <span>↓</span></a><a class="button quiet" href="#proyectos">Ver repositorios</a></div>
         <div class="hero-rule"><span>01</span><p>Productos en construcción</p><span>2026</span></div>
+      </section>
+
+      <section id="miescolar" class="school-section">
+        <div class="wrap school-grid">
+          <div class="school-copy">
+            <p class="eyebrow blue">PROYECTO PRINCIPAL</p>
+            <h2>La comunidad escolar,<br /><em>mejor conectada.</em></h2>
+            <p>MiEscolar es un ecosistema digital que acerca a establecimientos, familias y equipos educativos mediante experiencias web y móviles conectadas.</p>
+            <p>La plataforma integra una aplicación Flutter, una web pública, backoffice y servicios para autenticación, documentos, notificaciones e integraciones.</p>
+            <a class="text-link school-link" href="#miescolar-modulos">Explorar la plataforma <span>→</span></a>
+          </div>
+          <div class="school-window" aria-label="Vista conceptual de MiEscolar">
+            <div class="browser-bar"><i></i><i></i><i></i><span>miescolar.cl</span></div>
+            <div class="school-ui"><aside><b>m.</b><a class="selected">Inicio</a><a>Comunidad</a><a>Documentos</a><a>Mensajes</a><small>MiEscolar · 2026</small></aside><div class="school-main"><div class="school-welcome"><div><small>MIÉRCOLES, 2 DE SEPTIEMBRE</small><h3>Buenos días,<br />Manuel.</h3><p>Todo lo importante de tu comunidad, en un solo lugar.</p></div><b class="school-avatar">M</b></div><div class="school-stats"><div><small>ASISTENCIA</small><strong>96<span>%</span></strong><em>↑ 2.4%</em></div><div><small>MENSAJES</small><strong>08</strong><em>2 nuevos</em></div><div><small>DOCUMENTOS</small><strong>14</strong><em>al día</em></div></div><div class="school-card"><small>PRÓXIMO EVENTO</small><strong>Reunión de apoderados</strong><p>Jueves · 18:30 hrs · Sala multiuso</p><button>Ver detalle →</button></div></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="miescolar-modulos" class="school-modules wrap">
+        <p class="eyebrow">UNA PLATAFORMA, VARIAS EXPERIENCIAS</p>
+        <div class="arch-title"><h2>Diseñada para<br />acompañar la gestión.</h2><p>Servicios conectados para una comunidad escolar informada y una operación ordenada.</p></div>
+        <div class="tracks">
+          <article><span>01</span><h3>Experiencia familiar</h3><p>App móvil y web pública para acercar información, mensajes y contenidos relevantes a las familias.</p><div class="tags"><b>Flutter</b><b>Web</b></div></article>
+          <article><span>02</span><h3>Gestión educativa</h3><p>Backoffice para los equipos del establecimiento y servicios para documentos y notificaciones.</p><div class="tags"><b>TypeScript</b><b>Backoffice</b></div></article>
+          <article><span>03</span><h3>Servicios de plataforma</h3><p>Autenticación, integraciones y APIs independientes que permiten una evolución ordenada.</p><div class="tags"><b>Nest</b><b>Microservicios</b></div></article>
+        </div>
       </section>
 
       <section id="gymapp" class="gym-section">
         <div class="wrap gym-grid">
           <div class="gym-copy">
-            <p class="eyebrow orange">PROYECTO DESTACADO</p>
+            <p class="eyebrow orange">PROYECTO SECUNDARIO</p>
             <h2>El gimnasio,<br />mejor conectado.</h2>
             <p>GymApp reúne la experiencia del socio y la operación del gimnasio: entrenamiento guiado, membresías, asistencia en sala y control de acceso.</p>
             <p>La propuesta inicial está pensada para una sede piloto: menos fricción al entrar, personal localizable y una operación que se puede medir.</p>
